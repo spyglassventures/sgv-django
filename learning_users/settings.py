@@ -129,6 +129,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+
+ALLOWED_HOSTS = ['.herokuapp.com']
+
 # MEDIA INFORMATION:
 
 MEDIA_URL = '/media/'
